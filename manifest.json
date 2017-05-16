@@ -1,7 +1,10 @@
 {
   "name" : "Force Facebook",
-  "version" : "0.2",
+  "version" : "0.3",
   "description" : "Forces Facebook to always view your News Feed in Most Recent view.",
+  "icons": {
+    "128": "forceFacebook.png"
+  },
   "content_scripts": [{
       "matches": ["*://*.facebook.com/", "*://*.facebook.com/?*"],
       "js": ["content.js"],
