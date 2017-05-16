@@ -1,0 +1,11 @@
+{
+  "name" : "Force Facebook",
+  "version" : "0.1",
+  "description" : "Forces Facebook to always view your News Feed in Most Recent view.",
+  "content_scripts": [{
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+  }],
+  "manifest_version": 2
+}
